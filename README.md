@@ -1,4 +1,7 @@
-# Slack
+# TP Fil Rouge - Mini-Slack
+
+Ce repository constitue une base sur laquelle vous allez travailler.
+
 
 Lorsque vous clonez ce depot, faites `npm install` pour installer les dependances.
 
