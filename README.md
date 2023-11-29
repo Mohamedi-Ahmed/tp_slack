@@ -11,7 +11,7 @@ Pour pouvoir lancer le back-end :
 
 Faites `npm install -g json-server` pour installer les dependances.
 
-Lancez 'json-server --watch db.json' pour lancer le serveur de BDD. 
+Lancez `json-server --watch db.json` pour lancer le serveur de BDD. 
 Allez sur `http://localhost:3000/`. 
 
 Enoncé : https://nimble-echinacea-d64.notion.site/TP-Mini-Slack-54dbf8b20fa04bfe90f8d5eba0689a4f?pvs=4
