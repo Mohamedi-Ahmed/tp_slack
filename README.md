@@ -1,13 +1,17 @@
 # Slack
 
-accepter le TS, refuser l'optimisation
+Lorsque vous clonez ce depot, faites `npm install` pour installer les dependances.
 
-`npm install` pour installer les dependances
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Pour pouvoir lancer le front-end :
 
-Backend:
-backend installation :
+Lancez `ng serve` pour lancer le serveur de développement. 
+Allez sur `http://localhost:4200/`. 
 
-npm install -g json-server
+Pour pouvoir lancer le back-end :
 
-Run : 'json-server --watch db.json' for a backend server. Navigate to `http://localhost:3000/`. The application will automatically reload if you change any of the source files.
+Faites `npm install -g json-server` pour installer les dependances.
+
+Lancez 'json-server --watch db.json' pour lancer le serveur de BDD. 
+Allez sur `http://localhost:3000/`. 
+
+Enoncé : https://nimble-echinacea-d64.notion.site/TP-Mini-Slack-54dbf8b20fa04bfe90f8d5eba0689a4f?pvs=4
