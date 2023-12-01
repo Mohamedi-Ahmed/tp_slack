@@ -7,7 +7,7 @@ export interface Message{
     id: string,
     content: string,
     authorId: string,
-    date: string,
+    date: Date,
     threadId: string
 }
 

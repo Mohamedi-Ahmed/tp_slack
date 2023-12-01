@@ -36,7 +36,7 @@ export interface Thread{
 
       // Creer un nouveau thread dans threads
       createThread(thread: any){
-        return this.http.post("http://localhost:3000/threads",thread)
+        return this.http.post("http://localhost:3000/threads/",thread)
       }
 
       // Maj un thread existant selon son id

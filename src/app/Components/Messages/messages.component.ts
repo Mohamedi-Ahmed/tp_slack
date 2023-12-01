@@ -12,7 +12,8 @@ import { Message, MessagesService } from '../../Services/messages.service';
 })
 
 export class MessagesComponent {
-    @Input()message!: Message;
+    @Input()
+    message!: Message;
   constructor(private messagesService: MessagesService) {}
 }
 
