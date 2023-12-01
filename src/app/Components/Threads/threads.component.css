@@ -1,57 +1,47 @@
-/* .side {
+.corps_threads {
+  display: flex; /* Utiliser flex pour aligner les éléments côte à côte */
+  height: 100vh; /* Hauteur totale de la fenêtre de visualisation */
+}
+ .titre{
+  text-align: center;
+ }
+
+.side {
+  width: 20%;
   background-color: #fdfdfd;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   padding: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
   height: 100%;
-  width: 20%;
-  overflow: auto;
-  position: relative;
+}
+.rightSection {
+  width: 80%;
   display: flex;
   flex-direction: column;
+  height: 100%; /* Occupies all available vertical space */
 }
 
 .messageList {
   background-color: #a44242;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
-  padding: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
+
+  max-height: 80vh; 
+  overflow: auto;
+  flex-grow: 1; /* Takes up all available vertical space */
+
   margin-right: 10px;
-  height: 100%;
-  width: 80%;
-  overflow: auto;
-  position: left;
-  display: flex;
-  flex-direction: column;
-}  */
-
-.corps_threads {
-  display: flex;
-  flex-direction: row;
-  height: 98vh; /* Hauteur totale de la vue */
-  margin: 0; /* Supprime les marges par défaut */
-  background-color: blue;
+  margin-top: 10px;
+  width: 98%;
 }
 
-.side, .messageList {
-  display: flex;
-  flex-direction: column;
-
-  flex: 1; 
-  overflow: auto;
-
-  justify-content: center;
-  align-items: center;
-  gap: 20px; /* Ajustez cette valeur pour contrôler l'espacement */
+.messageForm input[type="text"] {
+  width: 100%;
 }
 
-.messageList{
-  background-color: grey;
+.messageForm {
+  width: 98%;
 }
+
+/* Ajoutez ici tout autre style CSS nécessaire */
