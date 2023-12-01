@@ -1,15 +1,13 @@
-// IL Y AURA DES CHOSES A DECOMMENTER ICI
-
 // Import des modules nécessaires depuis Angular Core et Common
 import { Component, Input } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import { CommonModule } from "@angular/common"; 
 
 // Import des composants ThreadsComponent et MessagesComponent
-/* import { ThreadsComponent } from "../Threads/threads.component";
- import { MessagesComponent } from "../Messages/messages.component"; */ // DECOMMENTER L'IMPORT
+import { ThreadsComponent } from "../Threads/threads.component";
+import { MessagesComponent } from "../Messages/messages.component";  // DECOMMENTER L'IMPORT
 
 // Import du service User et UserService depuis le fichier user.service
-import { User, UserService } from "../../Services/user.service";
+import { UserService } from "../../Services/user.service";
 
 // Import du module FormsModule pour la liaison bidirectionnelle avec ngModel
 import { FormsModule } from "@angular/forms";
@@ -23,7 +21,7 @@ import { FormsModule } from "@angular/forms";
     standalone: true,
     
     // Liste des modules importés pour ce composant
-    imports: [CommonModule, /* ThreadsComponent, MessagesComponent, */ FormsModule], // DECOMMENTER MESSAGESCOMPONENT et THREADSCOMPONENT
+    imports: [CommonModule,  ThreadsComponent, MessagesComponent, FormsModule], // DECOMMENTER MESSAGESCOMPONENT et THREADSCOMPONENT
     
     // Chemin vers le fichier HTML associé à ce composant
     templateUrl: "./app.component.html",

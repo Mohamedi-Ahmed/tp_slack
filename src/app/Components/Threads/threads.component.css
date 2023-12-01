@@ -1,4 +1,4 @@
-.side {
+/* .side {
   background-color: #fdfdfd;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -30,4 +30,28 @@
   position: left;
   display: flex;
   flex-direction: column;
+}  */
+
+.corps_threads {
+  display: flex;
+  flex-direction: row;
+  height: 98vh; /* Hauteur totale de la vue */
+  margin: 0; /* Supprime les marges par défaut */
+  background-color: blue;
+}
+
+.side, .messageList {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1; 
+  overflow: auto;
+
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Ajustez cette valeur pour contrôler l'espacement */
+}
+
+.messageList{
+  background-color: grey;
 }

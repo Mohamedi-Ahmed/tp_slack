@@ -1,9 +1,4 @@
-// IL FAUDRA TOUT DECOMMENTER
-
 // Importation des modules nécessaires depuis Angular
-
-/*
-
 import { Component, Input, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { FormsModule } from "@angular/forms";
@@ -86,5 +81,3 @@ export class ThreadsComponent implements OnInit {
             });
     }
 }
-
-*/

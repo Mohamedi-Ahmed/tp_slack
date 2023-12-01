@@ -1,0 +1,22 @@
+.corps_page {
+    display: flex;
+    flex-direction: row;
+    height: 98vh; /* Hauteur totale de la vue */
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+.accueil, .message_empty_box {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1; 
+    overflow: auto;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Ajustez cette valeur pour contrôler l'espacement */
+}
+
+.message_empty_box{
+    background-color: grey;
+}

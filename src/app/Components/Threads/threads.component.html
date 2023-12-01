@@ -1,0 +1,29 @@
+<div class = "corps_threads">
+
+<p>Liste des Threads</p>
+<div class = "side">
+    <li *ngFor="let thread of threads">
+        <button (click)=selectThread(thread)>
+            {{thread.label}}
+        </button>
+    </li>
+</div>
+
+<div class = "messageList">
+    <p *ngFor = "let message of messages" >
+        <app-message
+            [message] = "message">
+        </app-message>
+
+        <!-- {{message.content}} -->
+    </p>
+</div>
+
+<div class = "messageForm">
+    <div>
+        <input type="text" id="this.id" [(ngModel)]="this.message " />
+        <button type = "submit" (click)="sendMessage()">Envoyer</button>
+    </div>
+</div>
+
+</div>
